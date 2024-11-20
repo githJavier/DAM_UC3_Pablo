@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DAM_UC3_Pablo</string>
+    <string name="boton_vuelos">Vuelos</string>
+    <string name="boton_paquetes">Paquetes</string>
+    <string name="boton_hoteles">Hoteles</string>
+    <string name="boton_autos">Autos</string>
+    <string name="boton_idayvuelta">Ida y vuelta</string>
+    <string name="boton_soloida">Solo ida</string>
+    <string name="check_millas">Usa tus millas + dinero</string>
+    <string name="boton_buscarvuelos">Buscar vuelos</string>
+    <string name="textview_mensaje">Compra vuelos con escala en São Paulo con nuestro asistente virtual.</string>
+    <string name="txt_origen">Origen</string>
+    <string name="txt_destino">Destino</string>
+    <string name="txt_ida">Ida</string>
+    <string name="txt_vuelta">Vuelta</string>
+    <string name="txt_clase">Economy</string>
+    <string name="txt_adulto">1 Adulto</string>
 </resources>

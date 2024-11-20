@@ -40,6 +40,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="168dp"
                 android:backgroundTint="#F8F8F8"
+                android:hint="Origen"
                 android:text="@string/boton_idayvuelta"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +64,7 @@
                     android:drawableLeft="@drawable/icons8_vuelo01_24"
                     android:ems="10"
                     android:inputType="text"
-                    android:text="@string/txt_origen" />
+                     />
 
                 <EditText
                     android:id="@+id/txt_destino"
@@ -71,8 +72,9 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/icons8_aterrizaje_24"
                     android:ems="10"
+                    android:hint="Destino"
                     android:inputType="text"
-                    android:text="@string/txt_destino" />
+                     />
             </LinearLayout>
 
             <LinearLayout
@@ -94,8 +96,9 @@
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/icons8_calendario_24"
                     android:ems="10"
+                    android:hint="Ida"
                     android:inputType="date"
-                    android:text="@string/txt_ida" />
+                     />
 
                 <EditText
                     android:id="@+id/txt_vuelta"
@@ -104,8 +107,9 @@
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/icons8_calendario_24"
                     android:ems="10"
+                    android:hint="Vuelta"
                     android:inputType="date"
-                    android:text="@string/txt_vuelta" />
+                   />
             </LinearLayout>
 
             <LinearLayout
@@ -126,8 +130,9 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/icons8_asiento_24"
                     android:ems="10"
+                    android:hint="Clase vuelo"
                     android:inputType="text"
-                    android:text="@string/txt_clase" />
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -148,8 +153,9 @@
                     android:drawableLeft="@drawable/icons8_usuario_24"
                     android:drawableRight="@drawable/icons8_m_s_24"
                     android:ems="10"
+                    android:hint="Seleccione"
                     android:inputType="text"
-                    android:text="@string/txt_adulto" />
+                    />
 
             </LinearLayout>
 
@@ -165,17 +171,18 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.706" />
 
+
             <Button
                 android:id="@+id/boton_buscarvuelos"
                 android:layout_width="304dp"
                 android:layout_height="61dp"
                 android:layout_marginBottom="176dp"
-                android:backgroundTint="#6A4C9C"
+                android:background="@drawable/button_border"
                 android:drawableLeft="@drawable/icons8_vuelo_24"
                 android:text="@string/boton_buscarvuelos"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.453"
+                app:layout_constraintHorizontal_bias="0.462"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <FrameLayout
